@@ -44,7 +44,7 @@ const CourseDescription = ({ user }) => {
       currency: "INR",
       name: "E learning", //your business name
       description: "Learn with us",
-      image: "https://elmlearning.com/wp-content/uploads/2024/05/2048243_BlogFeaturedImage-LMSHubPage_03_020924-1.png"
+      image: "https://elmlearning.com/wp-content/uploads/2024/05/2048243_BlogFeaturedImage-LMSHubPage_03_020924-1.png",
       order_id: order.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
 
       handler: async function (response) {
